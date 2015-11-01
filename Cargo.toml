@@ -1,0 +1,16 @@
+[package]
+name = "tinysegmenter"
+version = "0.1.0"
+authors = [ "woxtu <woxtup@gmail.com>" ]
+
+[dependencies]
+lazy_static = "0.1.15"
+maplit = "0.1.2"
+
+[[test]]
+name = "test"
+path = "test/test.rs"
+
+[[bench]]
+name = "benchmark"
+path = "benchmark/benchmark.rs"
