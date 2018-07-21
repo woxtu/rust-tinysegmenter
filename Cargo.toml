@@ -1,6 +1,6 @@
 [package]
 name = "tinysegmenter"
-version = "0.1.0"
+version = "0.1.1"
 authors = [ "woxtu <woxtup@gmail.com>" ]
 description = "Compact Japanese tokenizer"
 repository = "https://github.com/woxtu/rust-tinysegmenter"
