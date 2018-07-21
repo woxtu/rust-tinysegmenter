@@ -7,8 +7,8 @@ repository = "https://github.com/woxtu/rust-tinysegmenter"
 license = "MIT"
 
 [dependencies]
-lazy_static = "0.1.15"
-maplit = "0.1.2"
+lazy_static = "1.0"
+maplit = "1.0"
 
 [[test]]
 name = "test"
