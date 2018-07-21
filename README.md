@@ -1,6 +1,8 @@
 # rust-tinysegmenter
 
-Rust implementation of [TinySegmenter](http://chasen.org/~taku/software/TinySegmenter/) library, which is a compact Japanese tokenizer.
+[![Crates.io](https://img.shields.io/crates/v/tinysegmenter.svg?style=flat-square)](https://crates.io/crates/tinysegmenter)
+
+Rust implementation of [TinySegmenter](http://chasen.org/~taku/software/TinySegmenter/), which is a compact Japanese tokenizer.
 
 ## Install
 
@@ -8,7 +10,7 @@ Adding the following to the Cargo.toml in your project:
 
 ```toml
 [dependencies]
-tinysegmenter = "*"
+tinysegmenter = "0.1"
 ```
 
 and import using `extern crate`:
