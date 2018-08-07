@@ -1,13 +1,12 @@
 #[macro_use] extern crate lazy_static;
-#[macro_use] extern crate maplit;
+extern crate fnv;
 
 use std::char;
-use std::collections::HashMap;
 use std::hash::Hash;
 
 include!("constants.rs");
 
-fn get_score<T: Eq + Hash>(d: &HashMap<T, i32>, s: &T) -> i32 {
+fn get_score<T: Eq + Hash>(d: &FnvHashMap<T, i32>, s: &T) -> i32 {
   d.get(s).cloned().unwrap_or(0)
 }
 

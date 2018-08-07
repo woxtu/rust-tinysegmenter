@@ -1,19 +1,18 @@
 [package]
-name = "tinysegmenter"
-version = "0.1.1"
-authors = [ "woxtu <woxtup@gmail.com>" ]
+authors = ["woxtu <woxtup@gmail.com>"]
 description = "Compact Japanese tokenizer"
-repository = "https://github.com/woxtu/rust-tinysegmenter"
 license = "MIT"
-
-[dependencies]
-lazy_static = "1.0"
-maplit = "1.0"
+name = "tinysegmenter"
+repository = "https://github.com/woxtu/rust-tinysegmenter"
+version = "0.1.1"
+[[bench]]
+name = "benchmark"
+path = "benchmark/benchmark.rs"
 
 [[test]]
 name = "test"
 path = "test/test.rs"
 
-[[bench]]
-name = "benchmark"
-path = "benchmark/benchmark.rs"
+[dependencies]
+fnv = "1.0.6"
+lazy_static = "1.0"
