@@ -18,3 +18,7 @@ fn run(b: &mut Bencher) {
 
   b.iter(|| tinysegmenter::tokenize(&s));
 }
+#[bench]
+fn test_small(b: &mut test::Bencher) {
+  b.iter(|| tinysegmenter::tokenize("私はおでぶです"))
+}
