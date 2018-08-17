@@ -298,7 +298,6 @@ pub fn tokenize(s: &str) -> Vec<String> {
             Ctype::M => 3565,
             Ctype::N => 3876,
             Ctype::O => 6646,
-            _ => 0,
         };
         score += match &c[4] {
             Ctype::H => 313,
